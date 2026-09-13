@@ -1,0 +1,20 @@
+# Large data files (not tracked - see README for source)
+*.csv
+
+# Raw WHO datasets (downloadable from WHO Immunization Data portal)
+*.xlsx
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+venv/
+.env
+
+# Credentials - never commit
+config.py
+secrets.py
+
+# OS
+.DS_Store
+Thumbs.db
